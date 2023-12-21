@@ -8,7 +8,7 @@ public class gameRestart : MonoBehaviour
         // Debug.Log("Starting New game.");
         // SceneManager.LoadScene("mainGameScene");
         // Check if the space key is pressed
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.touchCount > 0)
         {
             Debug.Log("Restarting the Game.");
             SceneManager.LoadScene("mainGameScene");
