@@ -74,4 +74,4 @@ crashlytics-build.properties
 
 
 # Blob files Which are used for storing large files if any crash happens. But for now not required as much. 
-*.blob 
+*.blob
