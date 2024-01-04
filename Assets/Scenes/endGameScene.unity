@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 514736717}
   - component: {fileID: 514736716}
   - component: {fileID: 514736715}
+  - component: {fileID: 514736718}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -244,6 +245,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514736713}
   m_CullTransparentMesh: 1
+--- !u!114 &514736718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514736713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9560268ab35a456d69937637e291afaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestartButton: {fileID: 514736715}
 --- !u!1 &602174981
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9560268ab35a456d69937637e291afaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RestartButton: {fileID: 0}
 --- !u!1 &1448678079
 GameObject:
   m_ObjectHideFlags: 0

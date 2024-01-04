@@ -1,17 +1,29 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class gameStart : MonoBehaviour
 {
-    void Update()
-    {
-        // Debug.Log("Starting New game.");
-        // SceneManager.LoadScene("mainGameScene");
-        // Check if the space key is pressed
-        if (Input.touchCount > 0)
+    public Button StartButton;
+    
+    public void Start(){ 
+        StartButton = GetComponent<Button>();
+
+        // Ensure the button component is not null
+        if (StartButton != null)
         {
-            Debug.Log("New Game started.");
-            SceneManager.LoadScene("mainGameScene");
+            // Attach the function to the button's onClick event
+            StartButton.onClick.AddListener(GameStartFunction);
         }
+        else
+        {
+            Debug.LogError("Button component not found on GameObject: ");
+        }
+    }
+
+    public void GameStartFunction()
+    {
+        Debug.Log("New Game started.");
+        SceneManager.LoadScene("mainGameScene");
     }
 }

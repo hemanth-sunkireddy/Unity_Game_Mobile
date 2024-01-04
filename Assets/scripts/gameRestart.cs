@@ -1,17 +1,29 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gameRestart : MonoBehaviour
 {
-    void Update()
-    {
-        // Debug.Log("Starting New game.");
-        // SceneManager.LoadScene("mainGameScene");
-        // Check if the space key is pressed
-        if (Input.touchCount > 0)
+    public Button RestartButton;
+    
+    public void Start(){ 
+        RestartButton = GetComponent<Button>();
+
+        // Ensure the button component is not null
+        if (RestartButton != null)
         {
-            Debug.Log("Restarting the Game.");
-            SceneManager.LoadScene("mainGameScene");
+            // Attach the function to the button's onClick event
+            RestartButton.onClick.AddListener(GameReStartFunction);
         }
+        else
+        {
+            Debug.LogError("Button component not found on GameObject: ");
+        }
+    }
+
+    public void GameReStartFunction()
+    {
+        Debug.Log("New Game started.");
+        SceneManager.LoadScene("mainGameScene");
     }
 }

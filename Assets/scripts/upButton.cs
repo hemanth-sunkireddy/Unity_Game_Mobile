@@ -6,7 +6,7 @@ public class UpButton : MonoBehaviour
     // Attach this script to your button GameObject
 
     public float speed = 5f; // Adjust the speed as needed
-    private Button myButton;
+    public Button myButton;
 
     public Rigidbody2D m_Rigidbody;
 
