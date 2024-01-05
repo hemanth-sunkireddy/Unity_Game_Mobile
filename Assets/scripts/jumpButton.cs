@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class jumpButton : MonoBehaviour
 {
-    public float speed = 5f; 
     public Button jumpArrow;
 
     public Rigidbody2D m_Rigidbody;
+
+    public float jumpAmount = 10;
 
     public void Start()
     {
@@ -26,11 +27,10 @@ public class jumpButton : MonoBehaviour
 
     public void UpMovementFunction()
     {
-        Vector2 movement = new Vector2(0f, 9.8f);
 
         if (m_Rigidbody != null)
         {
-            m_Rigidbody.velocity = movement * speed;
+            m_Rigidbody.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
         }
         else
         {
