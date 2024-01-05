@@ -9,10 +9,8 @@ public class gameStart : MonoBehaviour
     public void Start(){ 
         StartButton = GetComponent<Button>();
 
-        // Ensure the button component is not null
         if (StartButton != null)
         {
-            // Attach the function to the button's onClick event
             StartButton.onClick.AddListener(GameStartFunction);
         }
         else

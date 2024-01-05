@@ -9,15 +9,13 @@ public class gameRestart : MonoBehaviour
     public void Start(){ 
         RestartButton = GetComponent<Button>();
 
-        // Ensure the button component is not null
         if (RestartButton != null)
         {
-            // Attach the function to the button's onClick event
             RestartButton.onClick.AddListener(GameReStartFunction);
         }
         else
         {
-            Debug.LogError("Button component not found on GameObject: ");
+            Debug.LogError("Restart Button component not found on GameObject: ");
         }
     }
 
