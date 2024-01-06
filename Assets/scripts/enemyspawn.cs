@@ -5,32 +5,30 @@ using UnityEngine;
 public class enemyspawn : MonoBehaviour
 {
     public GameObject enemy; 
-    public int initial_time = 0; 
+    public float timer = 0; 
     
     public float speed = 1f; 
 
-    void Start()
-    {
-        
-    }
+    public float spawnRate = 5; 
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        if ( initial_time == 1000 ){
-            enemyGenerate();
-            initial_time = 0; 
+        if ( timer < spawnRate ){
+
+            timer = timer + Time.deltaTime; 
         }
-        initial_time++;
+        else{
+            enemyGenerate();
+            timer = 0; 
+        }
     }
 
     public void enemyGenerate(){
+
         Instantiate(enemy, transform.position, transform.rotation);
 
-        // Calculate the movement direction based on the Horizontal input.
-        Vector2 movement = new Vector2(9.8f, 0f);
+        Debug.Log("New enemy created to the game.");
 
-        // Move the GameObject based on the calculated movement of Horizontal.
-        transform.Translate(movement * speed * Time.deltaTime);
     }
 }
