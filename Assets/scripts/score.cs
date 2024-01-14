@@ -7,7 +7,7 @@ using System.Collections;
 
 public class score: MonoBehaviour { 
 
-    public int playerScore = 0; 
+    public int playerScore = 1; 
 
     public float timer = 0; 
     
@@ -27,7 +27,7 @@ public class score: MonoBehaviour {
     }
 
     public void scoreUpdate() { 
-        _scoreText.text = "score: " + playerScore; 
+        _scoreText.text = "Score: " + playerScore; 
         playerScore++;
     }
 }

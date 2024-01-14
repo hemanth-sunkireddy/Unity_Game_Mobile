@@ -9,7 +9,7 @@ public class enemyspawn : MonoBehaviour
     
     public float speed = 1f; 
 
-    public float spawnRate = 5; 
+    public float spawnRate = 3; 
 
     // Update is called once per frame
     public void Update()
