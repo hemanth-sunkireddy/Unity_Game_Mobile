@@ -1,29 +1,30 @@
-# Basic Game made with Unity
-### This game is to learn production of an product in google play store.
+# Simple Game made with Unity
 
-## Play the Game here by following link. 
-
-
+## Play the Game:
+### Mobile - Google Playstore Link
 ```
-https://hemanth-sunkireddy.itch.io/catch-fish
+  https://play.google.com/store/apps/details?id=com.defaultcompany.catchfish
 ```
 
-## About the game:
+### Browser - itch.io Link
+```
+  https://hemanth-sunkireddy.itch.io/penguin-glide
+```
 
-1. Survival of the game.
-2. One enemy and One friend. 
-3. Escape from enemy and Hold your friend. 
-4. Contain three scenes. (Start, Game, Over)
+## About the game
+
+The Emperor Penguin takes a wild plunge into the Arctic Ocean during an epic ice slide.
+Now, our feathery hero faces the challenge of making its way up to the snowy haven, 
+located at a tantalizing distance. But wait, the journey won't be a leisurely swim! 
+Brace yourself for thrilling encounters with cunning sharks, 
+and master the art of escape to ensure the penguin's safe ascent to the snowy summit.
 
 
-## Tasks: 
-1. Audio
-2. Background
-3. Characters
-4. Movement
-5. Text
-6. Graphics
-7. Automation release
-8. Automation deploy
+### Devlelop the game 
+
+1. Clone the repository or download the zip file.
+2. Open the Unity Application and then selects this repository.
+3. Modify script files and the attributes of the players.
+
 
 
