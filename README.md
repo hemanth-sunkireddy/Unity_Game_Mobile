@@ -11,6 +11,11 @@
   https://hemanth-sunkireddy.itch.io/penguin-glide
 ```
 
+
+### Game: 
+![Game](Assets/images/game-play.png)
+
+
 ## About the game
 
 The Emperor Penguin takes a wild plunge into the Arctic Ocean during an epic ice slide.
