@@ -1,0 +1,20 @@
+lane :playstore do
+    gradle(
+      task: 'assemble',
+      project_dir: "Library/Bee/Android/Prj/IL2CPP/Gradle"
+    )
+    upload_to_play_store(
+    track: 'production',
+    rollout: '1',
+    skip_upload_apk: true
+  )
+  end
+  
+  lane :beta do
+    gradle(
+      task: 'assemble',
+      build_type: 'Release',
+      project_dir: "Library/Bee/Android/Prj/IL2CPP/Gradle"
+    )
+  end
+  
