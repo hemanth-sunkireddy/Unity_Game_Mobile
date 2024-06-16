@@ -6,7 +6,9 @@ lane :playstore do
     upload_to_play_store(
     track: 'production',
     rollout: '1',
-    skip_upload_apk: true
+    skip_upload_apk: true,
+    skip_upload_screenshots: true, 
+    
   )
   end
   
