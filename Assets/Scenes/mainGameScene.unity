@@ -349,7 +349,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 406398172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a95e7ffdc36261c8984cb916871302b, type: 3}
+  m_Script: {fileID: 11500000, guid: de546b80435e43250a71ffa806b9159b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetObjectTag: enemy
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 606235951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e6afbcff21a241fb0491e683be4ac4, type: 3}
+  m_Script: {fileID: 11500000, guid: efda67a7b001ef009b5c0da4b1a6f784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1376351239}
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 635420272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e6afbcff21a241fb0491e683be4ac4, type: 3}
+  m_Script: {fileID: 11500000, guid: efda67a7b001ef009b5c0da4b1a6f784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1613216395}
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 822505888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 609174334af42333d9484a87d8891917, type: 3}
+  m_Script: {fileID: 11500000, guid: bbe09cb00d42b3fc99360c8a02fb285f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 962607382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eefd1f5bbb9876f1095864b224366a5e, type: 3}
+  m_Script: {fileID: 11500000, guid: e3d561a6500bbac85ab02717458eca92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1962748126}
@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 964420207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e6afbcff21a241fb0491e683be4ac4, type: 3}
+  m_Script: {fileID: 11500000, guid: efda67a7b001ef009b5c0da4b1a6f784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 822505888}
@@ -1551,7 +1551,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1376351239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 609174334af42333d9484a87d8891917, type: 3}
+  m_Script: {fileID: 11500000, guid: bbe09cb00d42b3fc99360c8a02fb285f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1613216395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 609174334af42333d9484a87d8891917, type: 3}
+  m_Script: {fileID: 11500000, guid: bbe09cb00d42b3fc99360c8a02fb285f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
@@ -1791,7 +1791,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1621103699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893e26f1849265d7498df5f63874f8b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 00ea711c8c73658119484f54f084fa11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerScore: 1
@@ -1847,12 +1847,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1930454717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d09092555d75de6ff8271e9d61eeb77e, type: 3}
+  m_Script: {fileID: 11500000, guid: c4e76796a77d8144b8dbfa22f887dd7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpArrow: {fileID: 1930454720}
+  jumpArrow: {fileID: 0}
   m_Rigidbody: {fileID: 406398173}
-  jumpAmount: 3
+  jumpAmount: 10
 --- !u!114 &1930454720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2029,7 +2029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1962748126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e62c3f184db482e4f817eafa20d3b6da, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cda82e31918e16a2bc4d578f4c7344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: 3
