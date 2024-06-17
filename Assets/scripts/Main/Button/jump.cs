@@ -14,9 +14,15 @@ public class jumpButton : MonoBehaviour
     public void Start()
     {
         jumpArrow = GetComponent<Button>();
+        RectTransform rt = jumpArrow.GetComponent<RectTransform>();
+        rt.anchorMin = new Vector2(0, 0);
+        rt.anchorMax = new Vector2(0, 0);
+        rt.pivot = new Vector2(0, 0);
+        rt.anchoredPosition = new Vector2(20, 20);
 
         if (jumpArrow != null)
         {
+            
             jumpArrow.onClick.AddListener(UpMovementFunction);
         }
         else

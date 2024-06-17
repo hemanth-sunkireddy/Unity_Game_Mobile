@@ -1,33 +1,44 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro; 
-using System.Collections; 
+using TMPro;
+using System.Collections;
 
+public class score : MonoBehaviour
+{
+    public int playerScore = 1;
 
-public class score: MonoBehaviour { 
+    public float timer = 0;
 
-    public int playerScore = 1; 
+    public float spawnRate = 3;
 
-    public float timer = 0; 
-    
-    public float spawnRate = 3; 
+    public TMP_Text _scoreText;
 
-    public TMP_Text _scoreText; 
-
-    public void Update()
+    void Start()
     {
-        if ( timer < spawnRate ){
-            timer = timer + Time.deltaTime; 
+        RectTransform rt = _scoreText.GetComponent<RectTransform>();
+        rt.anchorMin = new Vector2(0, 1);
+        rt.anchorMax = new Vector2(0, 1);
+        rt.pivot = new Vector2(0, 1);
+        rt.anchoredPosition = new Vector2(30, -30); 
+    }
+
+    void Update()
+    {
+        if (timer < spawnRate)
+        {
+            timer += Time.deltaTime;
         }
-        else{
+        else
+        {
             scoreUpdate();
-            timer = 0; 
+            timer = 0;
         }
     }
 
-    public void scoreUpdate() { 
-        _scoreText.text = "Score: " + playerScore; 
+    void scoreUpdate()
+    {
+        _scoreText.text = "Score: " + playerScore;
         playerScore++;
     }
 }
