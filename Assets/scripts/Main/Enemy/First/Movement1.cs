@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemymovement : MonoBehaviour
+public class FirstEnemyMovement : MonoBehaviour
 {   
     public float speed = 1f; // Adjust the speed as needed
 

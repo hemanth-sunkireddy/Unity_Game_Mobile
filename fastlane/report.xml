@@ -5,12 +5,7 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: assemble" time="8.470512284">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="1: upload_to_play_store" time="89.074534916">
+      <testcase classname="fastlane.lanes" name="0: assemble" time="3.30696924">
         
       </testcase>
     
