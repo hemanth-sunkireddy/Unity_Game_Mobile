@@ -1,6 +1,6 @@
 # 2D Android Mobile Game
 Built with Unity
-### Play the Game: ![Google Playstore Link](https://play.google.com/store/apps/details?id=com.defaultcompany.catchfish)
+### Play the Game: https://play.google.com/store/apps/details?id=com.defaultcompany.catchfish
 
 ### About game
 Join the Emperor Penguin in "Penguin Escape: Arctic Adventure"! 
