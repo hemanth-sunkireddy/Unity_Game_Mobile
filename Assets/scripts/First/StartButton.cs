@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class start : MonoBehaviour
+public class NavigateSecondScreen : MonoBehaviour
 {
     public Button StartButton;
     

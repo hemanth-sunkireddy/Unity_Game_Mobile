@@ -11,7 +11,7 @@ public class CollisionDetectionUsingGameObjectName2D : MonoBehaviour
         if (collision.gameObject.tag == targetObjectTag)
         {
             Debug.Log("Collision Detected with the enemy. Game Over");
-            SceneManager.LoadScene("endGameScene");
+            SceneManager.LoadScene("Fourth");
         }
     }
 }

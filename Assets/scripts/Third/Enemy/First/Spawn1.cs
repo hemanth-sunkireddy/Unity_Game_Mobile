@@ -7,6 +7,7 @@ public class FirstEnemySpawn : MonoBehaviour
     public GameObject firstenemy;
     public float timer = 0;
     public float spawnRate = 3;
+    public float offsetY = 0.5f;
 
     void Update()
     {
@@ -24,7 +25,7 @@ public class FirstEnemySpawn : MonoBehaviour
         float screenHeight = Camera.main.orthographicSize * 2;
         float screenWidth = screenHeight * Camera.main.aspect;
         float minY = -(screenHeight/2) + 0.5f;
-        float maxY = 0;
+        float maxY = offsetY;
         float randomY = Random.Range(minY, maxY);
         float spawnX = screenWidth / 2;
         

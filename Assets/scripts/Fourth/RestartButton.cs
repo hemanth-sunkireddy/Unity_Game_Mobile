@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class gameRestart : MonoBehaviour
+public class NavigateRestartButton : MonoBehaviour
 {
     public Button RestartButton;
     
