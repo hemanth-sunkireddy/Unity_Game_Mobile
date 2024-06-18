@@ -74,3 +74,6 @@ crashlytics-build.properties
 
 # Blob files
 *.blob
+
+# Backup Files 
+build_BackUpThisFolder_ButDontShipItWithYourGame/*
