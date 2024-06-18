@@ -79,3 +79,4 @@ crashlytics-build.properties
 build_BackUpThisFolder_ButDontShipItWithYourGame/*
 build_mapping.txt
 .zip
+build_BurstDebugInformation_DoNotShip/*
