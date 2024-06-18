@@ -77,3 +77,5 @@ crashlytics-build.properties
 
 # Backup Files 
 build_BackUpThisFolder_ButDontShipItWithYourGame/*
+build_mapping.txt
+.zip
