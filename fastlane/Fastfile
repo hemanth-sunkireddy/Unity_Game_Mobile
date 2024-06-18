@@ -7,8 +7,7 @@ lane :playstore do
     track: 'production',
     rollout: '1',
     skip_upload_apk: true,
-    skip_upload_screenshots: true, 
-    
+    skip_upload_screenshots: false, 
   )
   end
   
