@@ -3,12 +3,13 @@ Built with Unity
 ### Play the Game: ![Google Playstore Link](https://play.google.com/store/apps/details?id=com.defaultcompany.catchfish)
 
 ### About game
-The Emperor Penguin takes a wild plunge into the Arctic Ocean during an epic ice slide.
-Now, our feathery hero faces the challenge of making its way up to the snowy haven, 
-located at a tantalizing distance. But wait, the journey won't be a leisurely swim! 
-Brace yourself for thrilling encounters with cunning sharks, 
-and master the art of escape to ensure the penguin's safe ascent to the snowy summit.
-![Game](Assets/images/game-play.png)
+Join the Emperor Penguin in "Penguin Escape: Arctic Adventure"! 
+Slide into the icy depths of the Arctic Ocean and 
+help our feathery hero navigate a challenging journey back to the snowy haven.
+
+Face thrilling encounters with cunning sharks and leopard seals as you master the art of escape.
+
+![Game](fastlane/metadata/android/en-IN/images/phoneScreenshots/1_en-IN.png)
 
 ## Contribution guideline
 1.  Fork this repo on GitHub (click Fork button)
