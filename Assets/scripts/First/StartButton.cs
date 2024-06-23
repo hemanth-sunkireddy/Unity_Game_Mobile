@@ -22,6 +22,6 @@ public class NavigateSecondScreen : MonoBehaviour
     public void GameStartFunction()
     {
         Debug.Log("New Game started.");
-        SceneManager.LoadScene("Second");
+        SceneManager.LoadScene("Third");  // Present Disable Select Level Screen
     }
 }
