@@ -1,6 +1,6 @@
 # Penguin Escape: Arctic Adventure
 
-## Play Game: ![Google Play store link](https://play.google.com/store/apps/details?id=com.defaultcompany.catchfish)
+## Play Game: [Penguin Escape: Arctic Adventure](https://play.google.com/store/apps/details?id=com.defaultcompany.catchfish)
 
 Join the Emperor Penguin in "Penguin Escape: Arctic Adventure"! Slide into the icy depths of the Arctic Ocean and help our feathery hero navigate a challenging journey back to the snowy haven. Face thrilling encounters with cunning sharks and leopard seals as you master the art of escape.
 
